@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1698868679133" name="3.3.0.8" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1728619414037" name="3.3.0.16" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.amp.mudhorn-java"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="1.29.1"/>
+      <attribute name="version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="a419503777131bf69feece8f086cd2a6af60f4fa00b0464d3ae58c9a408db3ed"/>
-      <attribute name="sha256" value="a419503777131bf69feece8f086cd2a6af60f4fa00b0464d3ae58c9a408db3ed"/>
-      <attribute name="md5" value="ffeadda6a2f85822567f0136bc1d1b8e"/>
-      <attribute name="url" value="com.apple.amp.mudhorn-java-1.29.1.jar"/>
-      <attribute name="size" type="Long" value="30184"/>
+      <attribute name="osgi.content" value="0729ce5a8cc8582c6f4a54e6eb1371331fdd9d9b0cc86be319a3c7d9efb004e0"/>
+      <attribute name="sha256" value="0729ce5a8cc8582c6f4a54e6eb1371331fdd9d9b0cc86be319a3c7d9efb004e0"/>
+      <attribute name="md5" value="73565112e14953125098e87f30979b19"/>
+      <attribute name="url" value="com.apple.amp.mudhorn-java-1.31.1.jar"/>
+      <attribute name="size" type="Long" value="30180"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="a419503777131bf69feece8f086cd2a6af60f4fa00b0464d3ae58c9a408db3ed"/>
-      <attribute name="md5" value="ffeadda6a2f85822567f0136bc1d1b8e"/>
+      <attribute name="sha256" value="0729ce5a8cc8582c6f4a54e6eb1371331fdd9d9b0cc86be319a3c7d9efb004e0"/>
+      <attribute name="md5" value="73565112e14953125098e87f30979b19"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.amp.mudhorn-java"/>
-      <attribute name="bundle-version" type="Version" value="1.29.1"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.amp.mudhorn-java"/>
-      <attribute name="bundle-version" type="Version" value="1.29.1"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.amp.mudhorn"/>
       <attribute name="version" type="Version" value="1.15.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.amp.mudhorn-java"/>
-      <attribute name="bundle-version" type="Version" value="1.29.1"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
       <directive name="uses" value="com.apple.amp.mudhorn.envelope"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.amp.mudhorn.api"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.amp.mudhorn-java"/>
-      <attribute name="bundle-version" type="Version" value="1.29.1"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
       <directive name="uses" value="javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.amp.mudhorn.envelope"/>
       <attribute name="version" type="Version" value="1.15.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.amp.mudhorn-java"/>
-      <attribute name="bundle-version" type="Version" value="1.29.1"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
       <directive name="uses" value="com.fasterxml.jackson.annotation"/>
     </capability>
     <capability namespace="osgi.service">
@@ -97,32 +97,32 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.amp.mudhorn.mudhorn-client-universal-apple-darwin"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="1.28.0"/>
+      <attribute name="version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="98ba22f3c056b98ef2ae453659891cab14bf2f9a4bc2ccd7e9e8b38971ae1a92"/>
-      <attribute name="sha256" value="98ba22f3c056b98ef2ae453659891cab14bf2f9a4bc2ccd7e9e8b38971ae1a92"/>
-      <attribute name="md5" value="c71135ee2dfe760f11f3f958e3180cef"/>
-      <attribute name="url" value="com.apple.amp.mudhorn.mudhorn-client-universal-apple-darwin-1.28.0.jar"/>
-      <attribute name="size" type="Long" value="2084415"/>
+      <attribute name="osgi.content" value="c6a571e4606e43a8fe9c89cf52fb8eb5e50b729b3fb028aa681129bc52e700b0"/>
+      <attribute name="sha256" value="c6a571e4606e43a8fe9c89cf52fb8eb5e50b729b3fb028aa681129bc52e700b0"/>
+      <attribute name="md5" value="d9d040009d104232f8b46240505bad8c"/>
+      <attribute name="url" value="com.apple.amp.mudhorn.mudhorn-client-universal-apple-darwin-1.31.1.jar"/>
+      <attribute name="size" type="Long" value="2266109"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="98ba22f3c056b98ef2ae453659891cab14bf2f9a4bc2ccd7e9e8b38971ae1a92"/>
-      <attribute name="md5" value="c71135ee2dfe760f11f3f958e3180cef"/>
+      <attribute name="sha256" value="c6a571e4606e43a8fe9c89cf52fb8eb5e50b729b3fb028aa681129bc52e700b0"/>
+      <attribute name="md5" value="d9d040009d104232f8b46240505bad8c"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.amp.mudhorn.mudhorn-client-universal-apple-darwin"/>
-      <attribute name="bundle-version" type="Version" value="1.28.0"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.amp.mudhorn.mudhorn-client-universal-apple-darwin"/>
-      <attribute name="bundle-version" type="Version" value="1.28.0"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="mudhorn.client.native">
       <attribute name="osname" value="macos"/>
       <attribute name="bits" value="64"/>
-      <attribute name="Version" value="1.28.0"/>
+      <attribute name="Version" value="1.31.1"/>
     </capability>
     <requirement namespace="osgi.native">
       <directive name="filter" value="(&amp;(osgi.native.osname~=MacOSX)(|(osgi.native.processor~=x86-64)(osgi.native.processor~=arm64)(osgi.native.processor~=AArch64)))"/>
@@ -132,32 +132,32 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-pc-windows-msvc"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="1.28.0"/>
+      <attribute name="version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="607f131f803590d4a3a43aa8db5affeaa1fd4a37cbc9f8be76e749383a6c7b62"/>
-      <attribute name="sha256" value="607f131f803590d4a3a43aa8db5affeaa1fd4a37cbc9f8be76e749383a6c7b62"/>
-      <attribute name="md5" value="1a3cbee5dfe91cb1071f3a9e54b3e642"/>
-      <attribute name="url" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-pc-windows-msvc-1.28.0.jar"/>
-      <attribute name="size" type="Long" value="830163"/>
+      <attribute name="osgi.content" value="32174afdaa1810d564d32e9aa62bb744abc25db2ec3b8c36ba969641ddc29097"/>
+      <attribute name="sha256" value="32174afdaa1810d564d32e9aa62bb744abc25db2ec3b8c36ba969641ddc29097"/>
+      <attribute name="md5" value="35cb0174ab2538c18037a73459274ccd"/>
+      <attribute name="url" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-pc-windows-msvc-1.31.1.jar"/>
+      <attribute name="size" type="Long" value="936010"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="607f131f803590d4a3a43aa8db5affeaa1fd4a37cbc9f8be76e749383a6c7b62"/>
-      <attribute name="md5" value="1a3cbee5dfe91cb1071f3a9e54b3e642"/>
+      <attribute name="sha256" value="32174afdaa1810d564d32e9aa62bb744abc25db2ec3b8c36ba969641ddc29097"/>
+      <attribute name="md5" value="35cb0174ab2538c18037a73459274ccd"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-pc-windows-msvc"/>
-      <attribute name="bundle-version" type="Version" value="1.28.0"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-pc-windows-msvc"/>
-      <attribute name="bundle-version" type="Version" value="1.28.0"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="mudhorn.client.native">
       <attribute name="osname" value="windows"/>
       <attribute name="bits" value="64"/>
-      <attribute name="Version" value="1.28.0"/>
+      <attribute name="Version" value="1.31.1"/>
     </capability>
     <requirement namespace="osgi.native">
       <directive name="filter" value="(&amp;(osgi.native.osname~=Win32)(osgi.native.processor~=x86-64))"/>
@@ -167,32 +167,32 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-unknown-linux-musl"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="1.28.0"/>
+      <attribute name="version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="b7c96ceace319844101af64a3f4f2ffe8dfb6a3337e07e524f358a46b9543761"/>
-      <attribute name="sha256" value="b7c96ceace319844101af64a3f4f2ffe8dfb6a3337e07e524f358a46b9543761"/>
-      <attribute name="md5" value="c6b6680347c70b817ca2772b43e1cd4a"/>
-      <attribute name="url" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-unknown-linux-musl-1.28.0.jar"/>
-      <attribute name="size" type="Long" value="2001367"/>
+      <attribute name="osgi.content" value="8c83faa7fdac14459524f53536bbcc63d3cd3fceabff9f0bdbcbe4834c40c994"/>
+      <attribute name="sha256" value="8c83faa7fdac14459524f53536bbcc63d3cd3fceabff9f0bdbcbe4834c40c994"/>
+      <attribute name="md5" value="9e66881c7de6b994de4f4a31d3817b60"/>
+      <attribute name="url" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-unknown-linux-musl-1.31.1.jar"/>
+      <attribute name="size" type="Long" value="2036906"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="b7c96ceace319844101af64a3f4f2ffe8dfb6a3337e07e524f358a46b9543761"/>
-      <attribute name="md5" value="c6b6680347c70b817ca2772b43e1cd4a"/>
+      <attribute name="sha256" value="8c83faa7fdac14459524f53536bbcc63d3cd3fceabff9f0bdbcbe4834c40c994"/>
+      <attribute name="md5" value="9e66881c7de6b994de4f4a31d3817b60"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-unknown-linux-musl"/>
-      <attribute name="bundle-version" type="Version" value="1.28.0"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.amp.mudhorn.mudhorn-client-x86_64-unknown-linux-musl"/>
-      <attribute name="bundle-version" type="Version" value="1.28.0"/>
+      <attribute name="bundle-version" type="Version" value="1.31.1"/>
     </capability>
     <capability namespace="mudhorn.client.native">
       <attribute name="osname" value="linux"/>
       <attribute name="bits" value="64"/>
-      <attribute name="Version" value="1.28.0"/>
+      <attribute name="Version" value="1.31.1"/>
     </capability>
     <requirement namespace="osgi.native">
       <directive name="filter" value="(&amp;(osgi.native.osname~=Linux)(osgi.native.processor~=x86-64))"/>
@@ -1119,211 +1119,211 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.transporter.core"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="version" type="Version" value="2.4.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="acb1625c5ac45ecf9ba16b70294dcd42b214c1001cdd0fdafeea9b3b30cdc2d5"/>
-      <attribute name="sha256" value="acb1625c5ac45ecf9ba16b70294dcd42b214c1001cdd0fdafeea9b3b30cdc2d5"/>
-      <attribute name="md5" value="a81ed2967dbd812280e9a5d61c19c250"/>
-      <attribute name="url" value="com.apple.transporter.core-2.4.0.SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="705907"/>
+      <attribute name="osgi.content" value="f47bf8839911a9bc214f5a8308d334c97731225dcb742cc347f64e6668992be0"/>
+      <attribute name="sha256" value="f47bf8839911a9bc214f5a8308d334c97731225dcb742cc347f64e6668992be0"/>
+      <attribute name="md5" value="658728bed6ff1fc0c7e2d9938656d893"/>
+      <attribute name="url" value="com.apple.transporter.core-2.4.1.SNAPSHOT.jar"/>
+      <attribute name="size" type="Long" value="705987"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="acb1625c5ac45ecf9ba16b70294dcd42b214c1001cdd0fdafeea9b3b30cdc2d5"/>
-      <attribute name="md5" value="a81ed2967dbd812280e9a5d61c19c250"/>
+      <attribute name="sha256" value="f47bf8839911a9bc214f5a8308d334c97731225dcb742cc347f64e6668992be0"/>
+      <attribute name="md5" value="658728bed6ff1fc0c7e2d9938656d893"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.analysis.api"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.io,com.apple.transporter.results.api,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.api"/>
       <attribute name="version" type="Version" value="1.9.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.software,com.apple.transporter.core.auth,com.apple.transporter.core.util,com.apple.transporter.core.webservice,com.apple.transporter.log4j2,com.apple.transporter.metadata.api,com.apple.transporter.stats.api,com.apple.transporter.toolregistry.api,javax.annotation,org.apache.http,org.apache.http.conn.routing,org.apache.http.protocol,org.osgi.framework"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.auth"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.api,com.apple.transporter.core.webservice,com.apple.transporter.core.ws.dto.requests,com.apple.transporter.credential.api,javax.annotation,org.apache.commons.lang3.tuple,org.apache.http,org.apache.http.protocol"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.auth.jwt"/>
       <attribute name="version" type="Version" value="1.1.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="javax.annotation,org.jose4j.lang"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.collections"/>
       <attribute name="version" type="Version" value="1.1.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.concurrent"/>
       <attribute name="version" type="Version" value="2.1.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.digest"/>
       <attribute name="version" type="Version" value="1.1.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.io,com.apple.transporter.core.util,com.fasterxml.jackson.annotation,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.io"/>
       <attribute name="version" type="Version" value="1.6.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.api,com.apple.transporter.core.digest,com.apple.transporter.core.log,javax.annotation,org.apache.commons.pool2"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.jackson"/>
       <attribute name="version" type="Version" value="1.4.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.ser.std"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.log"/>
       <attribute name="version" type="Version" value="1.6.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.api,com.apple.transporter.core.webservice,com.apple.transporter.log4j2,javax.annotation,org.apache.logging.log4j.core.appender,org.json.simple,org.osgi.service.log"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.log.events"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.api,com.fasterxml.jackson.annotation,com.fasterxml.jackson.dataformat.xml.annotation,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.mode"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.net"/>
       <attribute name="version" type="Version" value="1.4.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.foundation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.streaming"/>
       <attribute name="version" type="Version" value="1.4.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.transporter.streaming.api,javax.annotation,org.json.simple"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.streams"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.util"/>
       <attribute name="version" type="Version" value="1.10.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.transporter.core.api,com.apple.transporter.core.log,javax.annotation,org.apache.commons.pool2,org.json.simple.parser,org.osgi.framework"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.webservice"/>
       <attribute name="version" type="Version" value="1.5.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.api,com.apple.transporter.streaming.api,javax.annotation,org.apache.commons.cli,org.apache.http,org.apache.http.impl.client,org.apache.http.protocol"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.webservice.headers"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="org.apache.http,org.apache.http.protocol"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.ws.dto.requests"/>
       <attribute name="version" type="Version" value="1.5.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.jackson,com.apple.transporter.core.util,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.annotation,org.apache.http"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.ws.dto.results"/>
       <attribute name="version" type="Version" value="1.4.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.util,com.fasterxml.jackson.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.ws.jsonrpc2"/>
       <attribute name="version" type="Version" value="2.1.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.auth,com.apple.transporter.core.webservice,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,javax.annotation,org.apache.http,org.apache.http.client.protocol,org.apache.http.protocol"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.ws.methods"/>
       <attribute name="version" type="Version" value="1.5.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.webservice,com.apple.transporter.core.ws.dto.requests,com.apple.transporter.core.ws.dto.results"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.core.xml"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.namespace,javax.xml.stream"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.foundation"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.metadata"/>
       <attribute name="version" type="Version" value="1.2.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.metadata.api"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.stats"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.stats.api,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.toolregistry"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.core"/>
-      <attribute name="bundle-version" type="Version" value="2.4.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.4.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.toolregistry.api,org.osgi.framework"/>
     </capability>
     <capability namespace="osgi.service">
@@ -2946,51 +2946,51 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.transporter.http-transport"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="2.1.1.SNAPSHOT"/>
+      <attribute name="version" type="Version" value="2.1.2.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="089570290aff172952560bcf6e5407876c78c966b10c1d99eae3cdd4a983eaee"/>
-      <attribute name="sha256" value="089570290aff172952560bcf6e5407876c78c966b10c1d99eae3cdd4a983eaee"/>
-      <attribute name="md5" value="27dd83e9dfc069828834a9e3cf70a626"/>
-      <attribute name="url" value="com.apple.transporter.http-transport-2.1.1.SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="1941046"/>
+      <attribute name="osgi.content" value="e155f64e3fb8f142059240214c269111e7acbffcf0348cd4e500e9fb8133e55c"/>
+      <attribute name="sha256" value="e155f64e3fb8f142059240214c269111e7acbffcf0348cd4e500e9fb8133e55c"/>
+      <attribute name="md5" value="d227017cf8e8888b790edd02235ddd7b"/>
+      <attribute name="url" value="com.apple.transporter.http-transport-2.1.2.SNAPSHOT.jar"/>
+      <attribute name="size" type="Long" value="149058"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="089570290aff172952560bcf6e5407876c78c966b10c1d99eae3cdd4a983eaee"/>
-      <attribute name="md5" value="27dd83e9dfc069828834a9e3cf70a626"/>
+      <attribute name="sha256" value="e155f64e3fb8f142059240214c269111e7acbffcf0348cd4e500e9fb8133e55c"/>
+      <attribute name="md5" value="d227017cf8e8888b790edd02235ddd7b"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.transporter.http-transport"/>
-      <attribute name="bundle-version" type="Version" value="2.1.1.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.1.2.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.transporter.http-transport"/>
-      <attribute name="bundle-version" type="Version" value="2.1.1.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.1.2.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.transport.http"/>
       <attribute name="version" type="Version" value="1.2.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.http-transport"/>
-      <attribute name="bundle-version" type="Version" value="2.1.1.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.1.2.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.transport.http.api"/>
       <attribute name="version" type="Version" value="2.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.http-transport"/>
-      <attribute name="bundle-version" type="Version" value="2.1.1.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.1.2.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.api,com.apple.transporter.core.concurrent,com.apple.transporter.core.io,com.apple.transporter.core.log,com.apple.transporter.core.transport,com.apple.transporter.core.transport.log,com.apple.transporter.core.transport.reservations,com.apple.transporter.core.util,com.apple.transporter.results.api,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.transport.http.iris"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.http-transport"/>
-      <attribute name="bundle-version" type="Version" value="2.1.1.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="2.1.2.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.io,com.apple.transporter.transport.http.api,javax.annotation"/>
     </capability>
     <capability namespace="core.transport">
       <attribute name="transport.type" value="HTTP"/>
-      <attribute name="Version" value="2.1.1-SNAPSHOT"/>
+      <attribute name="Version" value="2.1.2-SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.service">
       <attribute name="objectClass" type="List&lt;String&gt;" value="com.apple.transporter.core.transport.TransportSupplier"/>
@@ -3003,10 +3003,6 @@
     <capability namespace="osgi.service">
       <attribute name="objectClass" type="List&lt;String&gt;" value="com.apple.transporter.toolregistry.api.ToolBundle"/>
       <directive name="uses" value="com.apple.transporter.toolregistry.api"/>
-    </capability>
-    <capability namespace="osgi.service">
-      <attribute name="objectClass" type="List&lt;String&gt;" value="com.apple.transporter.transport.http.api.HttpUploader"/>
-      <directive name="uses" value="com.apple.transporter.transport.http.api"/>
     </capability>
     <capability namespace="osgi.service">
       <attribute name="objectClass" type="List&lt;String&gt;" value="com.apple.transporter.transport.http.api.HttpUploaderFactory"/>
@@ -3027,32 +3023,28 @@
     <capability namespace="osgi.service">
       <attribute name="objectClass" type="List&lt;String&gt;" value="com.apple.transporter.toolregistry.api.ToolBundle"/>
       <directive name="uses" value="com.apple.transporter.toolregistry.api"/>
-    </capability>
-    <capability namespace="osgi.service">
-      <attribute name="objectClass" type="List&lt;String&gt;" value="com.apple.transporter.transport.http.api.HttpUploader"/>
-      <directive name="uses" value="com.apple.transporter.transport.http.api"/>
     </capability>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=javax.annotation)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
       <directive name="resolution" value="optional"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.api)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.api)(version&gt;=1.9.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.collections)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.concurrent)(version&gt;=2.0.0)(!(version&gt;=3.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.concurrent)(version&gt;=2.1.0)(!(version&gt;=3.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.digest)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.digest)(version&gt;=1.1.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.io)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.log)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.log)(version&gt;=1.6.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.core.transport)(version&gt;=1.3.0)(!(version&gt;=2.0.0)))"/>
@@ -3097,13 +3089,10 @@
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.apple.transporter.transport.http)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.annotation)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.annotation)(version&gt;=2.15.0)(!(version&gt;=3.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.dataformat.xml.annotation)(version&gt;=2.13.0)(!(version&gt;=3.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.dataformat.xml.annotation)(version&gt;=2.15.0)(!(version&gt;=3.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(osgi.wiring.package=javax.net.ssl)"/>
@@ -3561,16 +3550,16 @@
       <attribute name="version" type="Version" value="2.5.0.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="99695a8d0f5f93eeec83aecba4e9730ade08cf1c5857193069e0307368807022"/>
-      <attribute name="sha256" value="99695a8d0f5f93eeec83aecba4e9730ade08cf1c5857193069e0307368807022"/>
-      <attribute name="md5" value="f8ecf01bcae12f5d00aecdbadd030626"/>
+      <attribute name="osgi.content" value="f1c1c6a4a389b98c771c06796a197f2d09195f3cffc77980ee42fb37e381f2eb"/>
+      <attribute name="sha256" value="f1c1c6a4a389b98c771c06796a197f2d09195f3cffc77980ee42fb37e381f2eb"/>
+      <attribute name="md5" value="36ec86a6b7ada5574649d48eda611fbc"/>
       <attribute name="url" value="com.apple.transporter.itms-tx-launcher-util-2.5.0.SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="119635"/>
+      <attribute name="size" type="Long" value="120846"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="99695a8d0f5f93eeec83aecba4e9730ade08cf1c5857193069e0307368807022"/>
-      <attribute name="md5" value="f8ecf01bcae12f5d00aecdbadd030626"/>
+      <attribute name="sha256" value="f1c1c6a4a389b98c771c06796a197f2d09195f3cffc77980ee42fb37e381f2eb"/>
+      <attribute name="md5" value="36ec86a6b7ada5574649d48eda611fbc"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.transporter.itms-tx-launcher-util"/>
@@ -3655,31 +3644,31 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.transporter.itmstransporter"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="3.3.0.01-SNAPSHOT"/>
+      <attribute name="version" type="Version" value="3.3.0.02-SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="59bf96ba61e926e6bdf417e13b4f1b733907fec2e1e74308676496a6dc57fa65"/>
-      <attribute name="sha256" value="59bf96ba61e926e6bdf417e13b4f1b733907fec2e1e74308676496a6dc57fa65"/>
-      <attribute name="md5" value="a8b5758eca3abc790294419aeb23e14b"/>
-      <attribute name="url" value="com.apple.transporter.itmstransporter-3.3.0.01-SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="574220"/>
+      <attribute name="osgi.content" value="6859b334fe9ec1ab7d1e60b1efd3c2730f5f96a6bd4ca17a58156b01386c6e87"/>
+      <attribute name="sha256" value="6859b334fe9ec1ab7d1e60b1efd3c2730f5f96a6bd4ca17a58156b01386c6e87"/>
+      <attribute name="md5" value="f2b0c7cb8c1cf7b5983d1d48c3723e64"/>
+      <attribute name="url" value="com.apple.transporter.itmstransporter-3.3.0.02-SNAPSHOT.jar"/>
+      <attribute name="size" type="Long" value="574224"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="59bf96ba61e926e6bdf417e13b4f1b733907fec2e1e74308676496a6dc57fa65"/>
-      <attribute name="md5" value="a8b5758eca3abc790294419aeb23e14b"/>
+      <attribute name="sha256" value="6859b334fe9ec1ab7d1e60b1efd3c2730f5f96a6bd4ca17a58156b01386c6e87"/>
+      <attribute name="md5" value="f2b0c7cb8c1cf7b5983d1d48c3723e64"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.transporter.itmstransporter"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.01-SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.0.02-SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.transporter.itmstransporter"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.01-SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.0.02-SNAPSHOT"/>
     </capability>
     <capability namespace="apple.transporter">
       <attribute name="apple.transporter" value="itmstransporter"/>
-      <attribute name="Version" value="3.3.0.01-SNAPSHOT"/>
+      <attribute name="Version" value="3.3.0.02-SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.service">
       <attribute name="objectClass" type="List&lt;String&gt;" value="com.apple.transporter.toolregistry.api.ToolBundle"/>
@@ -4740,1010 +4729,1031 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.transporter.mediatoolkit"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="e0102c7d5a50980bbbf566d0541ced86d7686f3a96194fae47ac180b6011c0ac"/>
-      <attribute name="sha256" value="e0102c7d5a50980bbbf566d0541ced86d7686f3a96194fae47ac180b6011c0ac"/>
-      <attribute name="md5" value="14313c00d071136b978ee2f700b368a6"/>
-      <attribute name="url" value="com.apple.transporter.mediatoolkit-3.3.0.SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="13597290"/>
+      <attribute name="osgi.content" value="0560850b15bdca91caf72f0606ceb7c04d6960312c5a083cd594a5a181ee8c0c"/>
+      <attribute name="sha256" value="0560850b15bdca91caf72f0606ceb7c04d6960312c5a083cd594a5a181ee8c0c"/>
+      <attribute name="md5" value="3166cd335facab75f274566b10de905b"/>
+      <attribute name="url" value="com.apple.transporter.mediatoolkit-3.3.1.SNAPSHOT.jar"/>
+      <attribute name="size" type="Long" value="13934557"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="e0102c7d5a50980bbbf566d0541ced86d7686f3a96194fae47ac180b6011c0ac"/>
-      <attribute name="md5" value="14313c00d071136b978ee2f700b368a6"/>
+      <attribute name="sha256" value="0560850b15bdca91caf72f0606ceb7c04d6960312c5a083cd594a5a181ee8c0c"/>
+      <attribute name="md5" value="3166cd335facab75f274566b10de905b"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.mediatoolkit"/>
       <attribute name="version" type="Version" value="3.1.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.software,com.apple.transporter.toolregistry.api,org.osgi.framework"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.foghorn.fileformat.impl"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.foghorn.media"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media.types,com.apple.jingle.g5,com.apple.jingle.g5.util,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.foghorn.media.types"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.leghorn.jaxb.quicktime,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.index,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.foundation.util"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.g5"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.index,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.g5.util"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media.validator,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.g5.util,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.validator,com.apple.jingle.media.foundation.types,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.applications"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.timecode,com.apple.jingle.leghorn.util,javax.annotation,javax.swing,javax.swing.event,javax.swing.table,javax.swing.tree,javax.xml.parsers,org.json,org.slf4j,org.w3c.dom,org.xml.sax,org.xml.sax.helpers"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.flac,com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,com.apple.jingle.media.foundation.io,org.apache.tika.exception,org.w3c.dom,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.ADM"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,javax.annotation,org.xml.sax,org.xml.sax.helpers"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.BWF"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.audio.ADM,com.apple.jingle.leghorn.audio.RIFF,com.apple.jingle.leghorn.audio.dbmd,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.media.foundation.io,javax.annotation,org.slf4j"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.RIFF"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.audio.ADM,com.apple.jingle.leghorn.audio.caf,com.apple.jingle.leghorn.audio.dbmd,com.apple.jingle.media.foundation.io,javax.annotation,org.slf4j"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.caf"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.audio.RIFF,com.apple.jingle.leghorn.jaxb.caf,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.media.foundation.io,javax.annotation,org.slf4j"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.dbmd"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.describe"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.BWF,com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.jaxb.flac,com.apple.jingle.leghorn.jaxb.wav,javax.xml.bind"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.flac"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.audio.describe,com.apple.jingle.leghorn.audio.flac.audiodata,com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.jaxb.flac,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.flac.audiodata"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.flac,com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.audio.provide"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.flac.audiodata.frametypes"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.flac,com.apple.jingle.leghorn.audio.flac.audiodata,com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.audio.provide"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.flac.audiodata.frametypes.Residuals"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.provide"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.flac.metadata"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.audio.provide"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.flac.metadata.blocks"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.flac.metadata,com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.audio.provide"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.helpers"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.audio.provide,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.media.foundation.io,javax.xml.bind,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.mp3"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.fileformat.exceptions,javax.annotation,javax.xml.bind,javax.xml.bind.annotation,javax.xml.parsers,org.apache.tika.exception,org.w3c.dom,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.provide"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.audio.helpers,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.audio.wav"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.audio.BWF,com.apple.jingle.leghorn.audio.describe,com.apple.jingle.leghorn.audio.helpers,com.apple.jingle.leghorn.audio.provide,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.jaxb.wav,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.bitstream.aac"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.bitstream.avc"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.g5.util,com.apple.jingle.leghorn,com.apple.jingle.leghorn.bitstream.avc.sei,com.apple.jingle.leghorn.bitstream.avc.vui,com.apple.jingle.media.foundation.io,com.apple.jingle.media.foundation.util,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.bitstream.avc.sei"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.bitstream.avc,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.bitstream.avc.vui"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.g5.util,com.apple.jingle.leghorn.bitstream.avc,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.bitstream.hevc"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.bitstream.avc,com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.bitstream.prores"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.chapters"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.chaptersv1,com.apple.jingle.leghorn.media.exceptions,com.apple.jingle.leghorn.timecode,com.apple.jingle.media.foundation.io,javax.annotation,javax.xml.parsers,javax.xml.transform,org.w3c.dom,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.cocktail"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.cocktail.collection"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.cocktail.collection.beans"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.cocktail.collection.beans"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.dolby.contentmapping"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.g5.util,com.apple.jingle.leghorn.jaxb.dolby,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.xml,com.apple.jingle.leghorn.timecode,com.apple.jingle.media.foundation.io,javax.annotation,javax.xml.parsers,org.w3c.dom,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.epub"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,com.apple.jingle.media.foundation.io,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.epub.beans"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.epub.verifiers"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.itunes.epubtoolkit,com.apple.itunes.epubtoolkit.model,com.apple.jingle.leghorn.epub.beans"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.epub.verifiers.helpers"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.itunes.epubtoolkit,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.fileformat"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,com.apple.jingle.leghorn.fileformat.matcher,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.file,com.apple.jingle.locale,com.apple.jingle.media.foundation.types,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.fileformat.exceptions"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.fileformat.impl"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.amp.mudhorn,com.apple.amp.mudhorn.envelope,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.matcher,com.apple.jingle.leghorn.jaxb.quicktime,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.media.validator.conformance,com.apple.jingle.locale,com.apple.jingle.media.foundation.io,com.apple.jingle.media.foundation.types,javax.annotation,javax.xml.transform,org.w3c.dom,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.fileformat.impl.types"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,com.apple.jingle.leghorn.jaxb.dolby,com.apple.jingle.leghorn.jaxb.quicktime,com.apple.jingle.leghorn.jaxb.subtitle.description,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.subtitle,com.apple.jingle.media.foundation.io,javax.xml.bind,javax.xml.parsers,org.slf4j,org.w3c.dom,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.fileformat.matcher"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.media.foundation.io,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.image"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.image.gif,com.apple.jingle.leghorn.image.jpeg,com.apple.jingle.leghorn.image.png,com.apple.jingle.leghorn.jaxb.image,com.apple.jingle.media.foundation.io,javax.xml.parsers,javax.xml.xpath,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.image.gif"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.image,com.apple.jingle.leghorn.image.png,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.image.jpeg"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.image,com.apple.jingle.leghorn.image.png"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.image.jpeg.markers"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.image.jpeg,com.apple.jingle.leghorn.image.png,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.image.png"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.image,com.apple.jingle.leghorn.media"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.image.png.chunks"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.image.png"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.aac"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.caf"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.chaptersv1"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.chaptersv2"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.dolby"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation,javax.xml.datatype"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.flac"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.gossamer"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.image"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
-      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.mpeg2"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.json"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
+      <directive name="uses" value="javax.xml.bind.annotation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.mpeg2"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
+      <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.mxf"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation,javax.xml.bind.annotation.adapters"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.quicktime"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.scc"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.dcdm"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.datatype"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.description"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.itunesTimedText.itt2WebvttInfo"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.tt"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttd,com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttm,com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttp,com.apple.jingle.leghorn.jaxb.subtitle.ttml2.xlink,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.namespace"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttd"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttm"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttd,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.namespace"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttp"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.tt,com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttd,com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttm,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.namespace"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.subtitle.ttml2.xlink"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.jaxb.wav"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.xml.bind.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.lyrics"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
-      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.m3u8"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
+      <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
+      <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.g5,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.media.dolbymapping.file,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.index,com.apple.jingle.leghorn.media.notification,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,com.apple.jingle.media.foundation.types,javax.annotation,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.transform,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.criteria"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.locale,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.dolbymapping"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.dolby,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.dolbymapping.file"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media.types,com.apple.jingle.leghorn.dolby.contentmapping,com.apple.jingle.leghorn.jaxb.dolby,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,com.apple.jingle.media.foundation.types,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.exceptions"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.feature"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.g5,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.index,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.feature.extractor"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.locale,javax.annotation,org.apache.commons.lang3.tuple"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.feature.misc"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.g5,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.file.misc,com.apple.jingle.leghorn.media.index,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.feature.mpeg2ps"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.g5,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.file.mpeg2ps,com.apple.jingle.leghorn.media.index,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.feature.mxf"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.g5,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.file.mxf,com.apple.jingle.leghorn.media.index,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.feature.quicktime"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.g5,com.apple.jingle.g5.util,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.dolbymapping.file,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.file.quicktime,com.apple.jingle.leghorn.media.index,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.file"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.g5,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,com.apple.jingle.media.foundation.types,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.file.misc"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
-      <directive name="uses" value="com.apple.jingle.leghorn.audio.mp3,com.apple.jingle.leghorn.jaxb.caf,com.apple.jingle.leghorn.jaxb.flac,com.apple.jingle.leghorn.jaxb.scc,com.apple.jingle.leghorn.jaxb.subtitle.description,com.apple.jingle.leghorn.jaxb.wav,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,com.apple.jingle.media.foundation.types,javax.annotation,org.w3c.dom"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
+      <directive name="uses" value="com.apple.jingle.leghorn.audio.mp3,com.apple.jingle.leghorn.jaxb.aac,com.apple.jingle.leghorn.jaxb.caf,com.apple.jingle.leghorn.jaxb.flac,com.apple.jingle.leghorn.jaxb.scc,com.apple.jingle.leghorn.jaxb.subtitle.description,com.apple.jingle.leghorn.jaxb.wav,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,com.apple.jingle.media.foundation.types,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.file.mpeg2ps"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.leghorn.jaxb.mpeg2,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.file.mxf"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.leghorn.jaxb.mxf,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.feature.extractor,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,com.apple.jingle.media.foundation.types,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.file.quicktime"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media,com.apple.jingle.foghorn.media.types,com.apple.jingle.g5.util,com.apple.jingle.leghorn.jaxb.quicktime,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.timecode,com.apple.jingle.locale,javax.annotation,javax.xml.xpath,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.file.source"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.filevalidationcontext"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.media.foundation.types"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.index"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
-      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.notification"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.json"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
+      <directive name="uses" value="com.apple.jingle.leghorn.jaxb.json,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,javax.annotation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.notification"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
+      <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.validator"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.notification,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.validator.asset"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.validator.conformance"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.feature,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.file.quicktime,com.apple.jingle.leghorn.media.validator,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.media.xml"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.file,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.timecode,javax.annotation,javax.json"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.jaxb.mpeg2,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.mpeg2.packets,com.apple.jingle.leghorn.mpeg2.packets.descriptors,com.apple.jingle.leghorn.mpeg2.streams,com.apple.jingle.media.foundation.io,javax.annotation,javax.xml.transform,org.apache.commons.lang3.tuple,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.datatypes"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.packets"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.foghorn.media.types,com.apple.jingle.leghorn,com.apple.jingle.leghorn.bitstream.avc,com.apple.jingle.leghorn.mpeg2,com.apple.jingle.leghorn.mpeg2.ts,com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.packets.descriptors"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.streams"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.mpeg2.datatypes,com.apple.jingle.leghorn.mpeg2.packets"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.ts"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.mpeg2.datatypes,com.apple.jingle.leghorn.mpeg2.ts.psi,com.apple.jingle.leghorn.mpeg2.ts.streams,com.apple.jingle.media.foundation.io,javax.annotation,javax.xml.transform,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.ts.psi"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.mpeg2.ts,com.apple.jingle.leghorn.mpeg2.ts.streams,com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.ts.streams"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.mpeg2,com.apple.jingle.leghorn.mpeg2.packets,com.apple.jingle.leghorn.mpeg2.ts.psi,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mpeg2.ts.tools"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.mpeg2.packets,com.apple.jingle.leghorn.mpeg2.ts"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.mxf"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.jaxb.quicktime,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.quicktime.atoms,com.apple.jingle.leghorn.quicktime.samples,com.apple.jingle.leghorn.util,com.apple.jingle.media.foundation.io,javax.annotation,org.slf4j"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.atoms"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.g5.util,com.apple.jingle.leghorn,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.quicktime.sampledescriptions,com.apple.jingle.leghorn.util,com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.atoms.metatypeatoms"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.quicktime,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.atoms.udtatypeatoms"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.quicktime.atoms,com.apple.jingle.leghorn.util,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.atoms.udtatypeatoms.itunesmetadata"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.quicktime.atoms,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.compare"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.quicktime,com.apple.jingle.leghorn.quicktime,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.exporters"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.quicktime.atoms,com.apple.jingle.leghorn.quicktime.io,com.apple.jingle.leghorn.timecode,com.apple.jingle.media.foundation.io,org.slf4j"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.io"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="org.apache.commons.io.output"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.sampledescriptions"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.g5.util,com.apple.jingle.leghorn,com.apple.jingle.leghorn.bitstream.avc,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.quicktime.atoms,com.apple.jingle.leghorn.util,com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.sampledescriptions.sei"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.g5.util,com.apple.jingle.leghorn.bitstream.avc"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.quicktime.samples"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.quicktime.atoms,com.apple.jingle.leghorn.timecode,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.scc"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn,com.apple.jingle.leghorn.jaxb.scc,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.scc.bizobjs,com.apple.jingle.leghorn.timecode,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.scc.bizobjs"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.scc"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.scc.simple"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.software"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,com.apple.jingle.leghorn.media,com.apple.jingle.media.foundation.types"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.subtitle"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.jaxb.subtitle.description,com.apple.jingle.leghorn.jaxb.subtitle.ttml2.tt,com.apple.jingle.leghorn.jaxb.subtitle.ttml2.ttd,com.apple.jingle.leghorn.media,com.apple.jingle.leghorn.media.validator,com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.subtitle.exportable,com.apple.jingle.leghorn.timecode,com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.subtitle.exportable"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.quicktime,com.apple.jingle.leghorn.subtitle,com.apple.jingle.leghorn.timecode,com.apple.jingle.leghorn.util,com.apple.jingle.media.foundation.io,org.apache.commons.lang3.tuple"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.subtitle.prerendered"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.annotation,org.json"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.subtitle.webvtt"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.subtitle,com.apple.jingle.leghorn.subtitle.exportable,com.apple.jingle.leghorn.subtitle.webvtt.TTMLParagraphParser,com.apple.jingle.leghorn.timecode,com.apple.jingle.leghorn.util"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.subtitle.webvtt.TTMLParagraphParser"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.subtitle.webvtt.VTTParser"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.subtitle,com.apple.jingle.leghorn.subtitle.webvtt,com.apple.jingle.leghorn.subtitle.webvtt.VTTParser.VTTSettings,com.apple.jingle.media.foundation.io"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.subtitle.webvtt.VTTParser.VTTSettings"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.timecode"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.timedmetadata"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat,com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,javax.annotation,org.w3c.dom"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.tools"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.fileformat.impl,com.apple.jingle.leghorn.quicktime.atoms,com.apple.jingle.leghorn.quicktime.exporters,com.apple.jingle.leghorn.timecode,javax.annotation,org.slf4j,org.xml.sax,org.xml.sax.helpers"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.util"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.leghorn.fileformat.exceptions,com.apple.jingle.leghorn.jaxb.mxf,com.apple.jingle.leghorn.jaxb.quicktime,com.apple.jingle.leghorn.subtitle.exportable,com.apple.jingle.leghorn.timecode,com.apple.jingle.leghorn.util.javacc,com.apple.jingle.media.foundation.io,javax.annotation,org.w3c.dom.ls"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.leghorn.util.javacc"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.locale"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.locale.impl"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.locale,javax.annotation,org.apache.commons.lang3.tuple"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.locale.impl.matching"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.locale"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.media.foundation.io"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.media.foundation.io.multisource"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.media.foundation.io,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.media.foundation.types"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.jingle.media.foundation.util"/>
-      <attribute name="version" type="Version" value="3.3.0"/>
+      <attribute name="version" type="Version" value="3.3.1"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.mediatoolkit"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
       <directive name="uses" value="com.apple.jingle.media.foundation.io,javax.xml.namespace,javax.xml.parsers,javax.xml.transform,javax.xml.xpath,org.w3c.dom,org.xml.sax"/>
     </capability>
     <capability namespace="osgi.service">
@@ -5759,11 +5769,21 @@
       <directive name="resolution" value="optional"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.google.protobuf)(version&gt;=3.25.0)(!(version&gt;=4.0.0)))"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.xml.bind.marshaller)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=javax.annotation)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
       <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.imageio)"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=javax.imageio.stream)"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.bind)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))"/>
@@ -5865,66 +5885,6 @@
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.xml.bind.v2)(version&gt;=2.3.0)(!(version&gt;=3.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.awt)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.io)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.lang)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.lang.annotation)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.lang.invoke)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.lang.reflect)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.math)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.net)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.nio)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.nio.charset)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.security)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.text)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util.concurrent)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util.function)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util.jar)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util.logging)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util.regex)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util.stream)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=java.util.zip)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=javax.json)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
@@ -6009,10 +5969,10 @@
       <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.10.0)(!(version&gt;=2.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.annotation)(version&gt;=2.10.0)(!(version&gt;=3.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.annotation)(version&gt;=2.14.0)(!(version&gt;=3.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind)(version&gt;=2.10.0)(!(version&gt;=3.0.0)))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.fasterxml.jackson.databind)(version&gt;=2.14.0)(!(version&gt;=3.0.0)))"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.istack)(version&gt;=3.0.0)(!(version&gt;=4.0.0)))"/>
@@ -6024,13 +5984,7 @@
       <directive name="filter" value="(osgi.wiring.package=javax.crypto.spec)"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.imageio)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(osgi.wiring.package=javax.imageio.metadata)"/>
-    </requirement>
-    <requirement namespace="osgi.wiring.package">
-      <directive name="filter" value="(osgi.wiring.package=javax.imageio.stream)"/>
     </requirement>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(osgi.wiring.package=javax.lang.model.element)"/>
@@ -6195,27 +6149,27 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.transporter.osgibootstrapper"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="3316b7b77e3f44e71d828ab4415d913e0cc5c4695fc955678015a45393337da9"/>
-      <attribute name="sha256" value="3316b7b77e3f44e71d828ab4415d913e0cc5c4695fc955678015a45393337da9"/>
-      <attribute name="md5" value="9e282a2a312053018b8ae489da01f039"/>
-      <attribute name="url" value="com.apple.transporter.osgibootstrapper-3.3.0.SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="254899"/>
+      <attribute name="osgi.content" value="c40e8db914691b335b5252eb10b88f21f459865537dcc5332b14855c9b75fed7"/>
+      <attribute name="sha256" value="c40e8db914691b335b5252eb10b88f21f459865537dcc5332b14855c9b75fed7"/>
+      <attribute name="md5" value="4f1358b28b7961413817f168dabfea63"/>
+      <attribute name="url" value="com.apple.transporter.osgibootstrapper-3.3.1.SNAPSHOT.jar"/>
+      <attribute name="size" type="Long" value="255450"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="3316b7b77e3f44e71d828ab4415d913e0cc5c4695fc955678015a45393337da9"/>
-      <attribute name="md5" value="9e282a2a312053018b8ae489da01f039"/>
+      <attribute name="sha256" value="c40e8db914691b335b5252eb10b88f21f459865537dcc5332b14855c9b75fed7"/>
+      <attribute name="md5" value="4f1358b28b7961413817f168dabfea63"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.transporter.osgibootstrapper"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.transporter.osgibootstrapper"/>
-      <attribute name="bundle-version" type="Version" value="3.3.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="3.3.1.SNAPSHOT"/>
     </capability>
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(osgi.wiring.package=javax.annotation)"/>
@@ -6263,22 +6217,22 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.transporter.resources"/>
       <attribute name="type" value="osgi.fragment"/>
-      <attribute name="version" type="Version" value="3.3.0.01-SNAPSHOT"/>
+      <attribute name="version" type="Version" value="3.3.0.02-SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="fc3b77ebadfd3a029a129e7814d24b1231e409e705514411989b29fae871e6e4"/>
-      <attribute name="sha256" value="fc3b77ebadfd3a029a129e7814d24b1231e409e705514411989b29fae871e6e4"/>
-      <attribute name="md5" value="1c042dac762e5a3840f3bfeb11ed61f5"/>
-      <attribute name="url" value="com.apple.transporter.resources-3.3.0.01-SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="63567"/>
+      <attribute name="osgi.content" value="182b90fbb0e43da5fee0d1fe4cbfcdfcb7f9ce804feec0073b5f0d736bd6041f"/>
+      <attribute name="sha256" value="182b90fbb0e43da5fee0d1fe4cbfcdfcb7f9ce804feec0073b5f0d736bd6041f"/>
+      <attribute name="md5" value="e4133a32b8d4078e424d8a35ae5614e3"/>
+      <attribute name="url" value="com.apple.transporter.resources-3.3.0.02-SNAPSHOT.jar"/>
+      <attribute name="size" type="Long" value="63572"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="fc3b77ebadfd3a029a129e7814d24b1231e409e705514411989b29fae871e6e4"/>
-      <attribute name="md5" value="1c042dac762e5a3840f3bfeb11ed61f5"/>
+      <attribute name="sha256" value="182b90fbb0e43da5fee0d1fe4cbfcdfcb7f9ce804feec0073b5f0d736bd6041f"/>
+      <attribute name="md5" value="e4133a32b8d4078e424d8a35ae5614e3"/>
     </capability>
     <requirement namespace="osgi.wiring.host">
-      <directive name="filter" value="(&amp;(osgi.wiring.host=com.apple.transporter.itmstransporter)(bundle-version&gt;=3.3.0.01-SNAPSHOT)(bundle-version&lt;=3.3.0.01-SNAPSHOT))"/>
+      <directive name="filter" value="(&amp;(osgi.wiring.host=com.apple.transporter.itmstransporter)(bundle-version&gt;=3.3.0.02-SNAPSHOT)(bundle-version&lt;=3.3.0.02-SNAPSHOT))"/>
     </requirement>
   </resource>
   <resource>
@@ -7084,40 +7038,40 @@
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.apple.transporter.vbtx"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="1.1.0.SNAPSHOT"/>
+      <attribute name="version" type="Version" value="1.2.0.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="eeedb8f53e84b5cab98679c4c9fa24cd58dce2465779b5bd3b80595017632aee"/>
-      <attribute name="sha256" value="eeedb8f53e84b5cab98679c4c9fa24cd58dce2465779b5bd3b80595017632aee"/>
-      <attribute name="md5" value="ce132ba6ab59bf24e2f92f599769b3c8"/>
-      <attribute name="url" value="com.apple.transporter.vbtx-1.1.0.SNAPSHOT.jar"/>
-      <attribute name="size" type="Long" value="41841"/>
+      <attribute name="osgi.content" value="fecc277964a865d8355f832ef93ca13a652a4216d480feeb9619f5b09f54ad65"/>
+      <attribute name="sha256" value="fecc277964a865d8355f832ef93ca13a652a4216d480feeb9619f5b09f54ad65"/>
+      <attribute name="md5" value="6ae960bd99bf156cf0d4fec0ea02ac3d"/>
+      <attribute name="url" value="com.apple.transporter.vbtx-1.2.0.SNAPSHOT.jar"/>
+      <attribute name="size" type="Long" value="41844"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="com.apple.amp.checksums">
-      <attribute name="sha256" value="eeedb8f53e84b5cab98679c4c9fa24cd58dce2465779b5bd3b80595017632aee"/>
-      <attribute name="md5" value="ce132ba6ab59bf24e2f92f599769b3c8"/>
+      <attribute name="sha256" value="fecc277964a865d8355f832ef93ca13a652a4216d480feeb9619f5b09f54ad65"/>
+      <attribute name="md5" value="6ae960bd99bf156cf0d4fec0ea02ac3d"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.apple.transporter.vbtx"/>
-      <attribute name="bundle-version" type="Version" value="1.1.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="1.2.0.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.apple.transporter.vbtx"/>
-      <attribute name="bundle-version" type="Version" value="1.1.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="1.2.0.SNAPSHOT"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.download.api"/>
       <attribute name="version" type="Version" value="1.0.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.vbtx"/>
-      <attribute name="bundle-version" type="Version" value="1.1.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="1.2.0.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.util,javax.annotation"/>
     </capability>
     <capability namespace="osgi.wiring.package">
       <attribute name="osgi.wiring.package" value="com.apple.transporter.vbtx.api"/>
       <attribute name="version" type="Version" value="1.1.0"/>
       <attribute name="bundle-symbolic-name" value="com.apple.transporter.vbtx"/>
-      <attribute name="bundle-version" type="Version" value="1.1.0.SNAPSHOT"/>
+      <attribute name="bundle-version" type="Version" value="1.2.0.SNAPSHOT"/>
       <directive name="uses" value="com.apple.transporter.core.digest,com.apple.transporter.core.util,com.fasterxml.jackson.annotation,javax.annotation"/>
     </capability>
     <capability namespace="osgi.service">
@@ -8940,6 +8894,56 @@
     </requirement>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.google.protobuf"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="3.25.1"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="48a8e58a1a8f82eff141a7a388d38dfe77d7a48d5e57c9066ee37f19147e20df"/>
+      <attribute name="sha256" value="48a8e58a1a8f82eff141a7a388d38dfe77d7a48d5e57c9066ee37f19147e20df"/>
+      <attribute name="md5" value="7dc81d3c2187ce5627d134a37df88cc0"/>
+      <attribute name="url" value="com.google.protobuf-3.25.1.jar"/>
+      <attribute name="size" type="Long" value="1875070"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="com.apple.amp.checksums">
+      <attribute name="sha256" value="48a8e58a1a8f82eff141a7a388d38dfe77d7a48d5e57c9066ee37f19147e20df"/>
+      <attribute name="md5" value="7dc81d3c2187ce5627d134a37df88cc0"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.google.protobuf"/>
+      <attribute name="bundle-version" type="Version" value="3.25.1"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.google.protobuf"/>
+      <attribute name="bundle-version" type="Version" value="3.25.1"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.google.protobuf"/>
+      <attribute name="version" type="Version" value="3.25.1"/>
+      <attribute name="bundle-symbolic-name" value="com.google.protobuf"/>
+      <attribute name="bundle-version" type="Version" value="3.25.1"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="osgi.wiring.package" value="com.google.protobuf.compiler"/>
+      <attribute name="version" type="Version" value="3.25.1"/>
+      <attribute name="bundle-symbolic-name" value="com.google.protobuf"/>
+      <attribute name="bundle-version" type="Version" value="3.25.1"/>
+      <directive name="uses" value="com.google.protobuf"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.google.protobuf)(version&gt;=3.25.0)(!(version&gt;=4.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=sun.misc)"/>
+      <directive name="resolution" value="optional"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
     </requirement>
   </resource>
   <resource>
